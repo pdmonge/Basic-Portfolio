@@ -48,13 +48,51 @@ h2 {
 	font-size: 25px;
 }
 
-#about-me {
+#about-me, #portfolio, #contact {
 	position: fixed;
 	left: 10%;
 	background: #ffffff;
 	padding: 25px;
 	width: 480px;
 	margin: 20px 0px;
+}
+
+form {
+	margin-top: 20px;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.sample-image {
+	padding: 10px;
+	width: 180px;
+	height: 140px;
+}
+
+#portfolio p {
+	position: absolute;
+	width: 180px;
+	bottom: 20px;
+	padding: 20px;
+	background: #4aaaa5;
+	color: white;
+	text-align: center;
 }
 
 .about-me-text {
